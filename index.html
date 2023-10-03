@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Link to your custom CSS file for additional styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #hero {
+            background-image: url('image3.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #000;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #hero h1 {
+            color: #000;
+            text-decoration: solid;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #hero p {
+            color: #000;
+            text-decoration: solid;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #about {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #education-skills {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #portfolio {
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        #contact {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar-brand {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #navbarNav {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">POOJA R SUVARNA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education-skills">Education & Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="one">
+        <section id="hero" class="bg-primary text-white text-center py-5">
+            <div class="container">
+                <b>
+                    <h1 class="display-4">Welcome to My Portfolio</h1>
+                </b>
+                <strong>
+                    <p class="lead">I AM POOJA, COMPUTER SCIENCE STUDENT</p>
+                </strong>
+
+                <a href="#portfolio" class="btn btn-light btn-lg">View Portfolio</a>
+            </div>
+        </section>
+    </div>
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <h2>About Me</h2>
+                    <p>Motivated computer science
+                        student with experience in
+                        various programming languages
+                        and a passion for building
+                        innovative applications.I have always been fascinated by the way technology can solve real-world
+                        problems and make our lives more efficient. As
+                        a computer science enthusiast, I am excited to embark on my professional journey and contribute
+                        to the ever-evolving
+                        field of technology. Seeking
+                        an opportunity to contribute my
+                        technical skills and collaborate
+                        with a driven team of developers
+                        for growth of the Organization.</p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="Passport_Photo2.jpg" alt="Your Profile Picture" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education and Skills Section -->
+    <section id="education-skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Education and Skills</h2>
+            <div class="row">
+                <!-- Education Section -->
+                <div class="col-lg-8">
+                    <h3>Education</h3>
+                    <div class="mb-4">
+                        <h4>Dr Ambedkar Institute of Technology</h4>
+                        <p>Degree in Computer Science<br>Graduated in 2024</p>
+                    </div>
+                    <!-- Add more education entries as needed -->
+                </div>
+
+                <!-- Skills Section -->
+                <div class="col-lg-4">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Pyhton</li>
+                        <li>MYSQL</li>
+                    </ul>
+                    <!-- Add more skills as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <!-- Portfolio items -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="MALEA.jpg" alt="Project 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project on Machine learning</h5>
+                            <p class="card-text">Crime analysis using machine learning is a project that provides a
+                                graphical representation of the crimes done in different parts of district in a state.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="sql.jpg" alt="Project 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project on SQL</h5>
+                            <p class="card-text">Railway Management System is an SQL project that is used to handle the
+                                database related to all reservations, time, passengers, and related details.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="iot.jpg" alt="Project 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project on IOT</h5>
+                            <p class="card-text">
+                                This is a project that is based on IOT that is used to manage a toll system by reducing
+                                the human intervention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            &copy; 2023 POOJA R SUVARNA
+        </div>
+    </footer>
+
+    <!-- Bootstrap and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
